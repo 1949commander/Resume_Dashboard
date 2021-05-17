@@ -1,6 +1,6 @@
 # Resume_Dashboard
  Collection of Code Projects
-Introduction
+## Introduction
 
 During my last two weeks at the Tech Academy, I worked with a team of peers on a continuing development project to deploy a full scale .NET MVC Web Application using C#. Working on a continuing development project was a great experience requiring multiple skills such as fixing bugs, cleaning up code and adding new features. 
 
@@ -12,3 +12,12 @@ This two week sprint gave me significant experience using AZURE to manage and up
 
 Below are descriptions of the stories I worked on, along with code snippets and navigation links. I also have some full code files in this repo for the larger functionalities I implemented.
 
+## Front End Stories
+ * [Donation Page](#donation-page-ui)
+ 
+## Back End Stories
+* [Sorting Network Table](#sorting-network-table)
+* [Meetup API](#meetup-api)
+
+### Donation Page
+This Story was to create a UI for the Donations interface which I styled per the customers requirements. The customer wanted an interface that was scalable depending on display size. So the use of Bootstrap Grid System and Fluid Container was used to meet the customers needs. Here is the code I created to implement the UI also shown.
