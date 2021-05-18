@@ -13,13 +13,40 @@ This two week sprint gave me significant experience using AZURE to manage and up
 Below are descriptions of the stories I worked on, along with code snippets and navigation links. I also have some full code files in this repo for the larger functionalities I implemented.
 
 ## Front End Stories
- * [Donation Page](#donation-page-ui)
+ * [Donation Page](#donation-page)
  
 ## Back End Stories
-* [Sorting Network Table](#sorting-network-table)
+* [Code First](#code-first)
 * [Meetup API](#meetup-api)
 
 ### Donation Page
-This Story was to create a UI for the Donations interface which I styled per the customers requirements. The customer wanted an interface that was scalable depending on display size. So the use of Bootstrap Grid System and Fluid Container was used to meet the customers needs. Here is the code I created to implement the ![Donate Dashboard](https://user-images.githubusercontent.com/61473218/118589743-0058bb00-b76f-11eb-8297-181ce5caccd0.png) also shown.
+This Story was to create a UI for the Donations interface which I styled per the customers requirements. The customer wanted an interface that was scalable depending on display size. So the use of Bootstrap Grid System and Fluid Container was used to meet the customers needs. Here is the [code  I created](./Donate.cshtml) to implement the Donate Dashboard shown below.
 
-`
+![Donate Dashboard](https://user-images.githubusercontent.com/61473218/118592558-1a48cc80-b774-11eb-8597-1ddbda188624.png)
+
+### Code First
+```C#
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity;
+using System.Linq;
+using System.Web;
+
+namespace TheatreCMS3.Areas.Blog.Models
+{
+    [Table("BlogPhotos")]
+    public class BlogPhoto
+    {
+
+        [Key]
+        public int BlogPhotoId { get; set; }
+        public string Title { get; set; }
+        public byte[] Photo { get; set; }
+    }
+    
+}
+```
+
+
