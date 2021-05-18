@@ -20,4 +20,6 @@ Below are descriptions of the stories I worked on, along with code snippets and 
 * [Meetup API](#meetup-api)
 
 ### Donation Page
-This Story was to create a UI for the Donations interface which I styled per the customers requirements. The customer wanted an interface that was scalable depending on display size. So the use of Bootstrap Grid System and Fluid Container was used to meet the customers needs. Here is the code I created to implement the UI also shown.
+This Story was to create a UI for the Donations interface which I styled per the customers requirements. The customer wanted an interface that was scalable depending on display size. So the use of Bootstrap Grid System and Fluid Container was used to meet the customers needs. Here is the code I created to implement the ![Donate Dashboard](https://user-images.githubusercontent.com/61473218/118589743-0058bb00-b76f-11eb-8297-181ce5caccd0.png) also shown.
+
+`
